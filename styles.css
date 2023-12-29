@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif, "poppins";
+  background-image: linear-gradient(to bottom, #d6e5f1, #ebedee, #dee8f0);
+}
+
+/*logo styles here*/
+
+.logo{
+  display: flex;
+  margin-left: 32rem;
+  margin-top: 1rem;
+  
+}
+
+.logo-holder{
+  height: 30px;
+  width: 30px;
+  background-color: none;
+  border-radius: 10px;
+  margin-top: 4rem;
+  border: 3px solid #008efb;
+}
+
+h1{
+  margin-top: 4.2rem;
+  margin-left: 0.7rem;
+  font-size: 25px;
+}
+
+/*All login box styles are nested below*/
+
+.login-box{
+  height: 400px;
+  width: 430px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 3rem;
+  border-radius: 20px;
+}
+
+.space{
+  height: 100px;
+}
+
+/*the .login-box content is nested in the below section*/
+
+h2{
+  color: #2e3035;
+  padding-top: 3rem;
+  display: flex;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.credentials{
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  color: #93989d;
+}
+
+label{
+  display: block;
+  margin-left: 2rem;
+
+}
+
+.email{
+  margin-top: 2.5rem;
+  height: 40px;
+  width: 350px;
+  border-radius: 8px;
+  background-color: #f5f7fa;
+  border: none;
+  font-size: 18px;
+  border-color: #008efb;
+}
+
+.password{
+  margin-top: 1rem;
+  width: 350px;
+  height: 40px;
+  border-radius: 8px;
+  background-color:#f5f7fa ;
+  border: none;
+  font-size: 18px;
+  border-color: #008efb;
+}
+
+
+.sign-in{
+  margin-left: 2rem;
+  width: 350px;
+  height: 40px;
+  margin-top: 0.7rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #27282c;
+  color: #fff;
+  font-size: 18px;
+}
+
+.sign-in:hover{
+  transition: 0.3s ease;
+}
+
+.forgot-password{
+   text-decoration: none;
+   font-size: 15px;
+   display: block;
+   margin-left: 2rem;
+   margin-top: 2rem;
+   color:#69bdfe;
+}
+
+.forgot-password:hover{
+  transition: 0.3s ease-in-out;
+}
+
+.free{
+  text-decoration: none;
+  margin-left: 0.3rem;
+  color: #008efb;
+  font-size: 15px;
+}
+.free:hover{
+  transition: 0.3s ease-in-out;
+}
+
+.account{
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  font-size: 15px;
+}
+
+/*all the responsiveness styles below*/
+
+@media (max-width:640px){
+  .logo{
+    margin-left: 3rem;
+  }
+}
+
+input[type="email"]{
+  padding-left: 1rem;
+}
+
+input[type="password"]{
+  padding-left: 1rem;
+}
+
+
+
+
+
